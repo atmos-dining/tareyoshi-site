@@ -511,6 +511,7 @@ body:not(.is-home) .section {
 .hero-slide-1 { background-image: url("./images/hero-tareyoshi.jpg"); }
 .hero-slide-2 { background-image: url("./images/hero-tareyoshi1.jpg"); }
 .hero-slide-3 { background-image: url("./images/hero-tareyoshi2.jpg"); }
+.hero-slide-4 { background-image: url("./images/hero-tareyoshi3.jpg"); }
 
 .hero-visual::before {
   content: "";
