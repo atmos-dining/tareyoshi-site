@@ -29,6 +29,7 @@
       .then(r => r.text())
       .then(html => {
         html = html.replace(/href="\.\//g, `href="${ROOT}`);
+        html = html.replace(/src="\.\//g, `src="${ROOT}`);
         mount.outerHTML = html;
         initNav();
         initDrawer();
