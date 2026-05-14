@@ -194,11 +194,39 @@
     sections.forEach(sec => io.observe(sec));
   }
 
+  function initGA4Tracking() {
+    document.addEventListener('click', function(e) {
+      if (typeof gtag !== 'function') return;
+      const a = e.target.closest('a');
+      if (!a) return;
+      const href = a.getAttribute('href') || '';
+
+      // 電話ボタン
+      if (href.startsWith('tel:')) {
+        gtag('event', 'phone_click', {
+          event_category: 'contact',
+          event_label: href.replace('tel:', ''),
+          page_location: location.href
+        });
+      }
+
+      // ネット予約ボタン
+      if (href.includes('toreta') || href.includes('autoreserve') || href.includes('hotpepper')) {
+        gtag('event', 'reservation_click', {
+          event_category: 'conversion',
+          event_label: a.textContent.trim().slice(0, 50),
+          page_location: location.href
+        });
+      }
+    });
+  }
+
   document.addEventListener('DOMContentLoaded', () => {
     loadHeader();
     loadBottom();
     initPageTop();
     initScrollReveal();
+    initGA4Tracking();
   });
 
 })();
