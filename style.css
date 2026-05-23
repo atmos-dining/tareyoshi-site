@@ -1725,6 +1725,18 @@ body:not(.is-home) main { padding-top: 0; }
   .header-only-desktop,
   .global-nav.header-only-desktop { display: none; }
 
+  .header-reserve {
+    font-size: 11px;
+    height: 36px;
+    padding: 0 10px;
+    white-space: nowrap;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
   .header-inner { padding: 10px 16px; }
   .site-logo { font-size: 15px; }
 
