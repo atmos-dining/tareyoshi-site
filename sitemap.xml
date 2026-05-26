@@ -1,33 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- メインページ -->
   <url>
     <loc>https://tareyoshi-yoshizuka.com/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://tareyoshi-yoshizuka.com/course.html</loc>
+    <lastmod>2026-05-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://tareyoshi-yoshizuka.com/menu.html</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tareyoshi-yoshizuka.com/drink.html</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://tareyoshi-yoshizuka.com/course.html</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://tareyoshi-yoshizuka.com/blog/</loc>
-    <lastmod>2026-05-14</lastmod>
+    <lastmod>2026-05-26</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
+
+  <!-- ブログ記事 -->
+  <url>
+    <loc>https://tareyoshi-yoshizuka.com/blog/posts/post.html?slug=hakata-yoshizuka-yakiniku-access</loc>
+    <lastmod>2026-05-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tareyoshi-yoshizuka.com/blog/posts/post.html?slug=rainy-day-yakiniku-yoshizuka-access</loc>
+    <lastmod>2026-05-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tareyoshi-yoshizuka.com/blog/posts/post.html?slug=father-day-yakiniku-dinner</loc>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tareyoshi-yoshizuka.com/blog/posts/post.html?slug=yoshizuka-access-yakiniku-tareyoshi</loc>
+    <lastmod>2026-05-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tareyoshi-yoshizuka.com/blog/posts/post.html?slug=prefecture-office-group-banquet</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tareyoshi-yoshizuka.com/blog/posts/post.html?slug=yoshizuka-family-yakiniku-tareyoshi</loc>
+    <lastmod>2026-05-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tareyoshi-yoshizuka.com/blog/posts/post.html?slug=tareyoshi-regular-customer-style</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tareyoshi-yoshizuka.com/blog/posts/post.html?slug=2026-05-01-blog-open</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://tareyoshi-yoshizuka.com/blog/posts/post.html?slug=2026-04-10-mega-karubi</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://tareyoshi-yoshizuka.com/blog/posts/post.html?slug=2026-03-15-momidare</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://tareyoshi-yoshizuka.com/blog/posts/post.html?slug=2026-02-20-course-guide</loc>
+    <lastmod>2026-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://tareyoshi-yoshizuka.com/blog/posts/post.html?slug=2026-01-25-wagyu</loc>
+    <lastmod>2026-01-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://tareyoshi-yoshizuka.com/blog/posts/post.html?slug=2025-12-15-drink-guide</loc>
+    <lastmod>2025-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
 </urlset>
