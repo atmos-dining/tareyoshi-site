@@ -194,12 +194,9 @@
 
     <!-- ② 画像エリア -->
     <div class="hero-visual">
-      <div class="hero-slides" aria-hidden="true">
-        <div class="hero-slide hero-slide-1 is-active"></div>
-        <div class="hero-slide hero-slide-2"></div>
-        <div class="hero-slide hero-slide-3"></div>
-        <div class="hero-slide hero-slide-4"></div>
-      </div>
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="./images/hero.tareyoshi.mp4" type="video/mp4">
+      </video>
 
       <div class="hero-visual-content">
         <div class="hero-rule" aria-hidden="true"></div>
@@ -439,18 +436,6 @@
 
 <script src="./common.js"></script>
 <script>
-/* ヒーロー スライドショー */
-(function () {
-  const slides = document.querySelectorAll('.hero-slide');
-  if (slides.length < 2) return;
-  let current = 0;
-  setInterval(function () {
-    slides[current].classList.remove('is-active');
-    current = (current + 1) % slides.length;
-    slides[current].classList.add('is-active');
-  }, 3000);
-})();
-
 /* トップ：ブログ最新3件を自動表示 */
 (function () {
   const grid = document.getElementById('blog-latest-grid');
