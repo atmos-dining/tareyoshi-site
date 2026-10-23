@@ -173,6 +173,7 @@
   gtag('js', new Date());
   gtag('config', 'G-LRVBZMYE8E');
 </script>
+<script src="vendor/blog-security.js"></script>
 </head>
 
 <body class="is-home" data-page="home">
@@ -460,7 +461,7 @@
       grid.innerHTML = '';
       top3.forEach(p => {
         const img = p.image ? String(p.image).replace(/^\.\.\//, './') : '';
-        const bg  = img ? `background-image:url('${esc(img)}');` : 'background:#f0e8e0;';
+        const bg  = img ? `background-image:url('${esc(BlogSecurity.imageURL(img))}');` : 'background:#f0e8e0;';
         const el  = document.createElement('article');
         el.className = 'blog-card';
         el.innerHTML = `

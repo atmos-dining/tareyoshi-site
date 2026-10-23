@@ -24,6 +24,7 @@
   gtag('js', new Date());
   gtag('config', 'G-LRVBZMYE8E');
 </script>
+<script src="../vendor/blog-security.js"></script>
 </head>
 
 <body data-page="blog">
@@ -83,7 +84,7 @@
 
     listEl.innerHTML = posts.map(p => {
       const href = `/blog/posts/post.html?slug=${encodeURIComponent(p.slug)}`;
-      const bg = p.image ? `style="background-image:url('${esc(p.image)}');"` : '';
+      const bg = p.image ? `style="background-image:url('${esc(BlogSecurity.imageURL(p.image))}');"` : '';
       return `
         <article class="blog-card">
           <a href="${href}">
